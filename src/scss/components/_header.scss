@@ -1,0 +1,88 @@
+.header {
+    padding: 22px 0;
+
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .logo {}
+
+    // .logo__img {}
+
+    // .menu {}
+
+    .header__menu {
+        margin-left: -110px;
+    }
+
+    .menu__list {
+        display: flex;
+        column-gap: 40px;
+        font-size: 1.6rem;
+        font-weight: 700;
+        font-family: "Ubuntu", sans-serif;
+    }
+
+    .menu__item {
+        transition: transform 0.1s ease;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    .menu__link {
+        transition: transform 0.1s ease;
+
+        &:hover {
+            color: var(--color-primary);
+        }
+    }
+
+    .header__action {
+        display: flex;
+        column-gap: 36px;
+    }
+
+    // .header__action-phone {}
+
+    .header__action-item {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(1, auto);
+        grid-gap: 0 12px;
+        justify-content: space-between;
+        align-items: center;
+
+        transition: transform 0.2s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .phone {
+        // grid-row-start: 1;
+        // grid-row-end: 3;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    .action__text {
+        font-size: 1.8rem;
+    }
+
+    .action__text-title {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    // .header__action-email {}
+
+    .chat {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+}

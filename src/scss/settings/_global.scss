@@ -1,0 +1,30 @@
+html {
+   height: 100%;
+   font-size: 62.5%;
+}
+
+body {
+   height: 100%;
+
+   font-family: "Ubuntu", sans-serif;
+}
+
+.page__wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+.main {
+   flex-grow: 1;
+}
+
+a {
+   display: block;
+}
+
+.container {
+   margin: 0 auto;
+   padding: 0 15px;
+   max-width: 126rem;
+}
