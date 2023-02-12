@@ -1,1 +1,1 @@
-https://makcpokrovskiy.github.io/createx/dist/
+https://makcpokrovskiy.github.io/Сreatex/dist/
