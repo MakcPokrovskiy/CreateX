@@ -1,11 +1,88 @@
-.color-white {
-    &:hover {
-        background-color: #ffffff;
-    }
-}
+.btn {
+  border-radius: 4px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
 
-.color-orange {
-    &:hover {
-        background-color: #FF5A30;
+  &--large {
+    padding: 0 40px;
+    font-size: 16px;
+    line-height: 3.25;
+
+    &--extra {
+      padding: 0 112px;
     }
+  }
+
+  &--regular {
+    padding: 0 32px;
+    font-size: 14px;
+    line-height: 3.1428;
+  }
+
+  &--small {
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 3.1428;
+  }
+
+  &--tiny {
+    padding: 0 24px;
+    font-size: 12px;
+    line-height: 3;
+  }
+
+  &--fill {
+    border: none;
+    color: var(--color-white);
+
+    &--primary {
+      background-color: var(--color-primary);
+
+      &:hover {
+        background-color: var(--color-primary-in-state);
+      }
+
+      &:active {
+        background-color: var(--color-primary-in-state);
+      }
+    }
+
+    &--dark {
+      background-color: var(--color-primary);
+
+      &:hover {
+        border: 1px solid var(--color-grey-800);
+        background-color: var(--color-white);
+      }
+
+      &:active {
+        background-color: var(--color-grey-900);
+      }
+    }
+  }
+
+  &--stroke {
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent;
+
+    &--primary {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+      background-color: var(--color-white);
+    }
+
+    &--light {
+      border-color: var(--color-white);
+      color: var(--color-white);
+
+      &:hover {
+        border-color: var(--color-primary);
+        color: var(--color-primary);
+        background-color: rgba(#fff, 0.6);
+      }
+    }
+  }
 }
