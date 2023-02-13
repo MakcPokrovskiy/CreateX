@@ -3,9 +3,7 @@
     padding-top: 11.4rem;
     padding-bottom: 18rem;
 
-    .video__container {
-        position: relative;
-    }
+    // .video__container {}
 
     .video-title {
         font-size: 4.6rem;
@@ -24,16 +22,21 @@
         margin-bottom: 60px;
     }
 
-    .video-content {
-        background-image: url(../assets/img/content/videoimage.jpg);
-    }
+    // .video-content {
 
+
+
+    // }
+    .video__wrap {
+        position: relative;
+
+    }
 
 
     .btn-play {
         position: absolute;
-        top: 60%;
-        left: 50%;
+        top: 45%;
+        left: 46%;
         width: 80px;
         height: 80px;
         border-radius: 50%;
@@ -58,8 +61,8 @@
 
     .btn-mute {
         position: absolute;
-        bottom: 5%;
-        left: 5%;
+        bottom: 20%;
+        left: 4%;
         width: 40px;
         height: 40px;
         border-radius: 50%;
