@@ -49,9 +49,9 @@
 
     }
 
-    .btn {
-        padding: 0 40px;
-    }
+    // .btn {
+    //     padding: 0 40px;
+    // }
 
     .form__btn {
         text-transform: uppercase;
@@ -62,6 +62,7 @@
         text-align: center;
         border: 1px solid #ffffff;
         border-radius: 4px;
+        padding: 0 40px;
 
         color: #ffffff;
         transition: transform 0.3s ease;
@@ -82,36 +83,34 @@
     .slider__btn-prev {
         position: absolute;
         top: 50%;
-        left: 0;
+        left: 10px;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.5px solid var(--color-grey-600);
+        background-color: var(--color-grey-500);
 
+        &.arrow-prev {
+            width: 24px;
+            height: 24px;
 
-
-        &::after {
-            position: absolute;
-            content: "";
-            width: 4.8rem;
-            height: 4.8rem;
-            background-image: url(@img/slider-btn/prev-btn.png);
-        }
-
-        &:hover {
-            background: url(@img/slider-btn/btn-hover.png);
         }
     }
 
     .slider__btn-next {
         position: absolute;
-        top: 54.7%;
-        right: 0;
-        transform: rotate(180deg);
-
-        &::after {
-            position: absolute;
-            content: "";
-            width: 4.8rem;
-            height: 4.8rem;
-            background-image: url(@img/slider-btn/prev-btn.png);
-
-        }
+        top: 50%;
+        right: 10px;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.5px solid var(--color-grey-600);
+        background-color: var(--color-grey-500);
     }
 }
