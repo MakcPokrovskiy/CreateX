@@ -1,0 +1,42 @@
+.values {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    // .values__container {}
+
+    .values__title {
+        margin-bottom: 24px;
+    }
+
+    .values__descr {
+        margin-bottom: 60px;
+    }
+
+    .values__boxes-list {
+        display: flex;
+        column-gap: 187px;
+    }
+
+    .boxes__item {
+        transition: transform 0.2s ease;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    .boxes__img {
+        width: 100%;
+        height: 48px;
+        margin-bottom: 24px;
+    }
+
+    .boxes__title {
+        margin-bottom: 8px;
+    }
+
+    // .boxes__descr {
+
+    // }
+
+}

@@ -1,0 +1,45 @@
+.page-descr {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 150%;
+    color: var(--color-grey-700);
+
+    &--white {
+        color: var(--color-white);
+    }
+}
+
+.text-descr {
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 1.6rem;
+    color: var(--color-grey-700);
+
+    &--fs18 {
+        font-size: 1.8rem;
+    }
+
+    &--fs14 {
+        font-size: 1.4rem;
+    }
+
+    &--fs12 {
+        font-size: 1.2rem;
+    }
+
+    &--height-up {
+        line-height: 160%;
+    }
+
+    &--centered {
+        text-align: center;
+    }
+
+    &--gray800 {
+        color: var(--color-grey-800);
+    }
+
+    &--white {
+        color: var(--color-white);
+    }
+}
