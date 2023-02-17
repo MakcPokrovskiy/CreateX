@@ -42,16 +42,19 @@
     <div class="container hero-slider__container">
         <ul class="hero-slider__content content-list slider">
             <li class="slider-item">
-                <h1 class="slider__header title-page">CREATE<span class="page-header--marked">X</span> CONSTRUCTION</h1>
-                <p class="slider__descr">Cras ultrices leo vitae non viverra. Fringilla nisi quisque consequat,
+                <h1 class="slider__header page-title page-title-white">CREATE<span
+                        class="page-title--marked-orange">X</span> CONSTRUCTION</h1>
+                <p class="slider__descr page-descr page-descr--white">Cras ultrices leo vitae non viverra. Fringilla
+                    nisi quisque
+                    consequat,
                     dignissim vitae proin ipsum sed. Pellentesque nec turpis purus eget pellentesque integer ipsum
                     elementum
                     felis. </p>
             </li>
         </ul>
         <form class="form hero-slider__form" action="#">
-            <button class="btn form__btn learn-btn">Learn more about us</button>
-            <button class="btn form__btn submit-btn">Submit request</button>
+            <button class="btn form__btn learn-btn btn--primary">Learn more about us</button>
+            <button class="btn form__btn submit-btn btn--primary-dark">Submit request</button>
         </form>
         <div class="hero-slider__btn">
             <button class="btn slider__btn-prev color-white">
@@ -66,8 +69,9 @@
       <main class="main">
          <section class="video-block">
     <div class="container video__container">
-        <h2 class="video-title title-section title">We are Createx Construction Bureau </h2>
-        <p class="video-descr">We are rightfully considered to be the best construction company in the USA.</p>
+        <h2 class="title title--centered title--height-low video-block__title">We are Createx Construction Bureau </h2>
+        <p class="video-block__descr text-descr text-descr--centered text-descr--fs18">We are rightfully considered to
+            be the best construction company in the USA.</p>
         <div class="video__wrap">
             <video class="video__content" poster="assets/img/content/videoimage.jpg">
                 <source src="assets/video/construction-equipment.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
@@ -84,26 +88,33 @@
 </section>
          <section class="values">
     <div class="container values__container">
-        <h2 class="values__title title">Our core values</h2>
-        <p class="value__descr descr">Our mission is to set the highest standards for construction sphere.</p>
-        <ul class="values__boxes-list">
+        <h2 class="values__title title title--centered">Our core values</h2>
+        <p class="values__descr text-descr text-descr--centered text-descr--fs18">Our mission is to set the highest
+            standards for construction sphere.</p>
+        <ul class="values__boxes-list boxes">
             <li class="boxes__item">
                 <img class="boxes__img" src="assets/img/values-svg/like.svg" alt="Quality">
-                <h3 class="boxes__title title">Quality</h3>
-                <p class="boxes__descr descr">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit
+                <h3 class="boxes__title title title--centered title--fs20">Quality</h3>
+                <p class="boxes__descr text-descr text-descr--centered text-descr--fs16 text-descr--height-up">Culpa
+                    nostrud commodo ea
+                    consequat aliquip reprehenderit. Veniam velit
                     nostrud
                     aliquip sunt.</p>
             </li>
             <li class="boxes__item">
                 <img class="boxes__img" src="assets/img/values-svg/hand.svg" alt="Safety">
-                <h3 class="boxes__title title">Safety</h3>
-                <p class="boxes__descr descr">Anim reprehenderit sint voluptate exercitation adipisicing laborum
+                <h3 class="boxes__title title title--centered title--fs20">Safety</h3>
+                <p class="boxes__descr text-descr text-descr--centered text-descr--fs16 text-descr--height-up">Anim
+                    reprehenderit sint
+                    voluptate exercitation adipisicing laborum
                     adipisicing. Minim empor est ea.</p>
             </li>
             <li class="boxes__item">
                 <img class="boxes__img" src="assets/img/values-svg/slippers.svg" alt="Comfort">
-                <h3 class="boxes__title title">Comfort</h3>
-                <p class="boxes__descr descr">Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate
+                <h3 class="boxes__title title title--centered title--fs20">Comfort</h3>
+                <p class="boxes__descr text-descr text-descr--centered text-descr--fs16 text-descr--height-up">Sit
+                    veniam aute dolore
+                    adipisicing nulla sit culpa. Minim mollit voluptate
                     ullamco proident ea ad.</p>
             </li>
         </ul>
@@ -111,23 +122,28 @@
 </section>
          <section class="request-form">
     <div class="container container__form">
-        <h2 class="title request__title">Want to know more? Ask us a question:</h2>
+        <h2 class="title request__title title--centered title--fs28">Want to know more? Ask us a question:</h2>
         <form action="#" class="form form__wrapper">
             <div class="form__name-section form-section">
-                <h3 class="form__title-section form-title">Name</h3>
-                <input class="form__name entry-field" type="text" placeholder="Your name">
+                <!-- <h3 class="form__title-section form-title">Name</h3> -->
+                <label class="form-section-label title title--fs14 title--grey800 title--fw400"
+                    for="username">Name</label>
+                <input class="form__name entry-field" id="username" type="text" placeholder="Your name">
+
             </div>
             <div class="form__phone-section form-section">
-                <h3 class="form__title-section form-title">Phone</h3>
-                <input class="form__phone entry-field" type="tel" placeholder="Your phone">
+                <label class="form-section-label title title--fs14 title--grey800 title--fw400"
+                    for="phone">Phone</label>
+                <input class="form__phone entry-field" id="phone" type="tel" placeholder="Your phone">
 
             </div>
             <div class="form__message-section form-section--long">
-                <h3 class="form__title-section form-title">Message</h3>
-                <input class="form__message entry-field" type="text" placeholder="Your message">
+                <label class="form-section-label title title--fs14 title--grey800 title--fw400"
+                    for="message">Message</label>
+                <input class="form__message entry-field" id="message" type="text" placeholder="Your message">
             </div>
             <div class="form__submit-section">
-                <input class="btn form__btn" type="submit" value="SEND">
+                <input class="btn form__btn request-sumbit btn--orange btn--primary-dark" type="submit" value="SEND">
             </div>
         </form>
     </div>

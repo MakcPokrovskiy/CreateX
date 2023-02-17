@@ -1,18 +1,13 @@
 .video-block {
 
-    padding-top: 11.4rem;
-    padding-bottom: 18rem;
+    padding-top: 6rem;
+    padding-bottom: 12rem;
 
-    .video-title {
-        text-align: center;
+    &__title {
         margin-bottom: 24px;
     }
 
-    .video-descr {
-        font-size: 1.8rem;
-        font-family: "Ubuntu", sans-serif;
-        text-align: center;
-        color: var(--color-grey-700);
+    &__descr {
         margin-bottom: 60px;
     }
 

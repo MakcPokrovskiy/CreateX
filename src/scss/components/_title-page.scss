@@ -1,0 +1,69 @@
+.page-title {
+    font-weight: 700;
+    font-size: 7.2rem;
+    line-height: 130%;
+    color: var(--color-gray-900);
+    letter-spacing: 1px;
+
+    &--white {
+        color: #FFFFFF;
+    }
+
+    &--marked-orange {
+        color: var(--color-primary);
+    }
+}
+
+
+
+
+.title {
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 150%;
+    color: var(--color-gray-900);
+
+    &--fs32 {
+        font-size: 3.2rem;
+    }
+
+    &--fs28 {
+        font-size: 2.8rem;
+    }
+
+    &--fs24 {
+        font-size: 2.5rem;
+    }
+
+    &--fs20 {
+        font-size: 2rem;
+    }
+
+    &--fs16 {
+        font-size: 1.6rem;
+    }
+
+    &--fs14 {
+        font-size: 1.4rem;
+    }
+
+    &--height-low {
+        line-height: 130%;
+    }
+
+    &--height-up {
+        line-height: 160%;
+    }
+
+    &--centered {
+        text-align: center;
+    }
+
+    &--gray800 {
+        color: var(--color-gray-800);
+    }
+
+    &--fw400 {
+        font-weight: 400;
+    }
+}
