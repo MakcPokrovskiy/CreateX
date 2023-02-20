@@ -1,0 +1,168 @@
+.services {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    &__title {
+        margin-bottom: 2.4rem;
+    }
+
+    &__descr {
+        margin-bottom: 6rem;
+    }
+
+    .services__container {
+        padding: 1rem 0 8rem 0;
+    }
+
+
+
+    .services__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .cards__item {
+        position: relative;
+        padding: 8.9rem 0;
+        border: 1px solid #E5E8ED;
+        box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.12),
+            0px 30px 24px -10px rgba(154, 156, 165, 0.09),
+            0px 12px 10px -6px rgba(154, 156, 165, 0.09),
+            0px 4px 4px -4px rgba(30, 33, 44, 0.09);
+
+        transition: transform 0.2s ease;
+
+        &--bg1poz {
+            &:hover {
+                transform: scale(1.05);
+                background-image: url(../assets/img/services-svg/construction-bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                border-radius: 4px;
+                color: #ffffff;
+
+                .card__img {
+                    fill: var(--color-white);
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(#1E212C, 0.6);
+                }
+            }
+        }
+
+        &--bg2poz {
+            &:hover {
+                transform: scale(1.05);
+                background-image: url(../assets/img/services-svg/plan-bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                border-radius: 4px;
+                color: #ffffff;
+
+                .card__img {
+                    fill: var(--color-white);
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(#1E212C, 0.6);
+                }
+            }
+
+
+        }
+
+        &--bg3poz {
+            &:hover {
+                transform: scale(1.05);
+                background-image: url(../assets/img/services-svg/cardsBG.png);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                border-radius: 4px;
+                color: #ffffff;
+
+                .card__img {
+                    fill: var(--color-white);
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(#1E212C, 0.6);
+                }
+            }
+        }
+
+        &--bg4poz {
+            &:hover {
+                transform: scale(1.05);
+                background-image: url(../assets/img/services-svg/painting-bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                border-radius: 4px;
+                color: #ffffff;
+
+                .card__img {
+                    fill: var(--color-white);
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(#1E212C, 0.6);
+                }
+            }
+        }
+    }
+
+    .cards-list {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .card__img {
+        height: 52px;
+        margin-bottom: 24px;
+        fill: var(--color-primary);
+        z-index: 10;
+    }
+
+    .card__title {
+        z-index: 10;
+    }
+
+    .services__more {
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 4rem;
+
+    }
+
+
+}

@@ -4,20 +4,46 @@
     }
 }
 
-.btn--orange {
-    color: var(--color-white);
-    background-color: #FF5A30;
-}
+.btn {
 
-.btn--primary {
-    &:hover {
-        background-color: var(--color-primary);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+
+    &--lh44 {
+        line-height: 44px;
     }
-}
 
-.btn--primary-dark {
-    &:hover {
-        background-color: var(--color-primary-in-state);
+    &--fs14 {
+        font-size: 1.4rem;
+    }
+
+    &--padding40 {
+        padding: 0 4rem;
+    }
+
+    &--orange {
+        color: var(--color-white);
+        background-color: #FF5A30;
+    }
+
+    &--primary {
+        &:hover {
+            background-color: var(--color-primary);
+        }
+    }
+
+    &--primary-dark {
+        &:hover {
+            background-color: var(--color-primary-in-state);
+        }
     }
 }
 
