@@ -4,20 +4,67 @@
     }
 }
 
-.btn--orange {
-    color: var(--color-white);
-    background-color: #FF5A30;
-}
+.btn {
 
-.btn--primary {
-    &:hover {
-        background-color: var(--color-primary);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+
+
+
+    &--arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
     }
-}
 
-.btn--primary-dark {
-    &:hover {
-        background-color: var(--color-primary-in-state);
+    &--lh44 {
+        line-height: 44px;
+    }
+
+    &--fs14 {
+        font-size: 1.4rem;
+    }
+
+    &--padding40 {
+        padding: 0 4rem;
+    }
+
+    &--padding30 {
+        padding: 0 3rem;
+    }
+
+    &--border-orange {
+        border: 1px solid var(--color-primary);
+        color: var(--color-primary);
+    }
+
+    &--orange {
+        color: var(--color-white);
+        background-color: #FF5A30;
+    }
+
+    &--primary {
+        &:hover {
+            background-color: var(--color-primary);
+            color: var(--color-white);
+        }
+    }
+
+    &--primary-dark {
+        &:hover {
+            background-color: var(--color-primary-in-state);
+        }
     }
 }
 
@@ -30,4 +77,7 @@
     font-size: 1.4rem;
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
+
+
+
 }

@@ -1,0 +1,28 @@
+.services {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+
+    &__title {
+        margin-bottom: 2.4rem;
+    }
+
+    &__descr {
+        margin-bottom: 6rem;
+    }
+
+    .services__container {
+        padding: 1rem 0 8rem 0;
+    }
+
+    .services__more {
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 4rem;
+
+    }
+
+
+}
