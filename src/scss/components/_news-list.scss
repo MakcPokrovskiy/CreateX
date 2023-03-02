@@ -1,0 +1,37 @@
+.news-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(495px, auto));
+    gap: 30px;
+
+    &--big {
+        grid-row: span 2;
+    }
+
+    .new-card__content {
+        padding: 24px;
+
+        &--smallpadding {
+            padding-top: 16px;
+        }
+
+        &:hover {
+            .news-card__title {
+                color: var(--color-primary);
+            }
+        }
+    }
+
+    .new-info {
+        &--marg16 {
+            margin-bottom: 16px;
+        }
+    }
+
+    .new-info__item {
+        &--flex {
+            display: flex;
+            column-gap: 12px;
+        }
+    }
+
+}
