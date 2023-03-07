@@ -37,6 +37,7 @@
 
     .form__checkbox {
         position: relative;
+        padding-left: 2.5em;
     }
 
 
@@ -49,25 +50,33 @@
         font-size: 14px;
     }
 
-    .feedback-checkbox__text {
-        padding-left: 30px;
 
-        &::before {
-            content: "";
-            display: block;
-            width: 16px;
-            height: 16px;
-            border: 1px solid gray;
-            position: absolute;
-            top: 2px;
-            left: 0;
-            z-index: 1;
+    .feedback-checkbox__input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
+        &:checked+.feedback-checkbox__check {
+            background-color: var(--color-primary);
+            border: none;
         }
     }
 
-    .feedback-checkbox__input {
-        display: none;
+    .feedback-checkbox__check {
+        position: absolute;
+        top: 3px;
+        width: 16px;
+        height: 16px;
+        border: 1px solid var(--color-grey-700);
+        background-image: url(../../assets/img/feedback-bg/check-svg.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        // background-size: cover;
+        // background-color: var(--color-primary);
+        border-radius: 4px;
+        margin-left: -2.5em;
     }
+
 
     .feedback__submit {
         display: flex;

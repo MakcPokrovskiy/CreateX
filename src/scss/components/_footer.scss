@@ -1,0 +1,180 @@
+.footer {
+    background-color: var(--color-grey-900);
+
+    &__container {
+        padding-top: 8rem;
+    }
+
+    &__connection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &-social {
+        display: grid;
+        grid-template-columns: 0.7fr 1.3fr;
+        row-gap: 24px;
+
+    }
+
+    &__signature {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-social__descr {
+        max-width: 493px;
+        grid-column: span 2;
+    }
+
+    .social-list {
+        display: flex;
+        column-gap: 16px;
+    }
+
+    .social-list__link {
+        .social-list__icon:hover {
+            fill: var(--color-primary);
+            transform: scale(1.4);
+        }
+    }
+
+    .footer__connection-form {
+        padding-left: 120px;
+    }
+
+    .social-list__icon {
+        width: 24px;
+        height: 24px;
+        fill: white;
+        transition: transform 0.2s ease;
+    }
+
+
+    &-form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 49px;
+
+        &__email {
+            width: 495px;
+            height: 44px;
+            padding: 11px 0 12px 16px;
+            color: rgba($color: #ffffff, $alpha: 0.6);
+            background-color: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            font-size: 14px;
+        }
+    }
+
+    .footer-form__input {
+        position: relative;
+        max-width: 495px;
+        margin-bottom: 16px;
+    }
+
+    .footer-form__title {
+        color: #ffffff;
+        margin-bottom: 24px;
+    }
+
+    .footer-form__descr {
+        max-width: 495px;
+        color: rgba($color: #ffffff, $alpha: 0.6);
+    }
+
+    .footer-form__btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 44px;
+        border: none;
+        padding: 0 25px;
+        font-size: 14px;
+        line-height: 44px;
+    }
+
+
+
+    .footer__about-contacts {
+        display: flex;
+        column-gap: 125px;
+        margin-bottom: 60px;
+    }
+
+    .office__item--title,
+    .about-us__item--title,
+    .experience__item--title {
+        color: var(--color-white);
+        margin-bottom: 13px;
+    }
+
+    .color-text {
+        color: #ffffff;
+    }
+
+    .footer__link {
+        font-size: 1.6rem;
+        color: rgba($color: #ffffff, $alpha: 0.6);
+        margin-bottom: 4px;
+
+        &:hover {
+            color: rgba($color: #ffffff, $alpha: 0.8);
+            text-decoration: underline;
+        }
+    }
+
+
+    .footer__signature-text {
+        position: relative;
+        display: flex;
+        column-gap: 24px;
+        align-items: center;
+
+        &--before {
+
+
+            &::after {
+                display: block;
+                position: absolute;
+                top: 12px;
+                left: 178px;
+                content: '';
+                width: 16px;
+                height: 16px;
+                background-image: url(../assets/img/footer-img/Heart-icon.svg);
+            }
+        }
+    }
+
+    .footer__return {
+        display: flex;
+        column-gap: 16px;
+
+        &--btn {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &::after {
+                content: "";
+                width: 16px;
+                height: 9px;
+                background-image: url(../../assets/img/footer-img/return.png);
+                background-position: center;
+                background-repeat: no-repeat;
+
+            }
+        }
+
+        &-text {
+            color: #ffffff;
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+
+}
