@@ -1,44 +1,45 @@
 .clients {
-    padding-top: 10rem;
+  padding-top: 9.5rem;
 
+  .clients__partners {
+    margin-bottom: 221px;
+  }
 
-    .clients__partners {
-        margin-bottom: 221px;
+  .testimonials--list {
+    position: relative;
+  }
+
+  .testimonials-cards__descr{
+    margin-bottom: 5px;
+  }
+
+  .clients__title {
+    margin-bottom: 60px;
+  }
+
+  .clients__testimonials {
+    margin-bottom: 60px;
+  }
+
+  .testimonials__btn {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    display: flex;
+    column-gap: 12px;
+
+    &:hover {
+      .portfolio-btn__icon {
+        fill: var(--color-white);
+      }
     }
 
-    .testimonials--list {
-        position: relative;
-    }
+  }
 
+  .portfolio-btn__icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-grey-800);
 
-    .clients__title {
-        margin-bottom: 60px;
-    }
-
-    .clients__testimonials {
-        margin-bottom: 60px;
-    }
-
-    .testimonials__btn {
-        position: absolute;
-        bottom: 0;
-        right: 10px;
-        display: flex;
-        column-gap: 12px;
-
-        &:hover {
-            .portfolio-btn__icon {
-                fill: var(--color-white);
-            }
-        }
-
-    }
-
-    .portfolio-btn__icon {
-        width: 24px;
-        height: 24px;
-        fill: var(--color-grey-800);
-
-
-    }
+  }
 }
