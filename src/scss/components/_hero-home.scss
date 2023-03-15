@@ -8,11 +8,12 @@
     margin-bottom: 6rem;
 
 
-    // .hero-slider__content {}
 
-    // .content-list {}
+    &__btn {
+        margin-bottom: 180px;
+    }
 
-    // .slider {}
+
 
     .slider-item {
         max-width: 59.5rem;
@@ -30,22 +31,24 @@
     }
 
     .hero-slider__form {
-        // max-width: 52.6rem;
-        // height: 52px;
         display: flex;
-        column-gap: 24px;
-
-
+        column-gap: 21px;
     }
 
-    // .btn {
-    //     padding: 0 40px;
-    // }
+    .learn-btn {
+        height: 52px;
+    }
+
+    .submit-btn {
+        height: 52px;
+    }
+
 
     .form__btn {
         text-transform: uppercase;
         font-size: 1.6rem;
         font-weight: 700;
+        line-height: 52px;
         font-family: "Ubuntu", sans-serif;
         text-align: center;
         border: 1px solid #ffffff;
@@ -57,7 +60,7 @@
 
         &:hover {
             border: none;
-            transform: scale(12px);
+            transform: scale(1.02);
         }
     }
 
@@ -70,8 +73,8 @@
 
     .slider__btn-prev {
         position: absolute;
-        top: 50%;
-        left: 10px;
+        top: 47.5%;
+        left: 25px;
         width: 48px;
         height: 48px;
         border-radius: 50%;
@@ -90,8 +93,8 @@
 
     .slider__btn-next {
         position: absolute;
-        top: 50%;
-        right: 10px;
+        top: 47.5%;
+        right: 22px;
         width: 48px;
         height: 48px;
         border-radius: 50%;
@@ -100,5 +103,25 @@
         justify-content: center;
         border: 0.5px solid var(--color-grey-600);
         background-color: var(--color-grey-500);
+    }
+
+
+    .control-pages {
+        display: flex;
+        column-gap: 4px;
+
+        &__page {
+            width: 178px;
+        }
+
+        &__number {
+            font-size: 28px;
+            color: rgba($color: #ffffff, $alpha: 0.6);
+            margin-bottom: 12px;
+        }
+
+        &__line {
+            border: 1px solid rgba($color: #ffffff, $alpha: 0.6);
+        }
     }
 }

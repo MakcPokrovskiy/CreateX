@@ -21,17 +21,22 @@
 
     .form__wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1.5fr 0.5fr;
+        grid-template-columns: 1fr 1fr 1.55fr 0.5fr;
         grid-column-gap: 24px;
+        padding-left: 15px;
     }
 
-    // .form-section {
-    //     max-width: 260px;
-    // }
+   .form__name-section{
+       max-width: 260px;
+   }
 
-    // .form-section--long {
-    //     max-width: 414px;
-    // }
+    .form__phone-section{
+        max-width: 260px;
+    }
+
+    .form__message-section{
+        max-width: 414px;
+    }
 
     .entry-field {
         width: 100%;
@@ -45,7 +50,7 @@
     .form__submit-section {
         display: flex;
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .request-sumbit {

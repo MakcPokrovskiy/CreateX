@@ -1,0 +1,93 @@
+.feedback {
+    background-image: url("@img/feedback-bg/feedback-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0 30px;
+
+    &__container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__wrapper {
+        max-width: 495px;
+        height: 666px;
+        padding: 48px 40px;
+        border: 1px solid #FFFFFF;
+        margin-bottom: 50px;
+        background: #ffffff;
+    }
+
+    &__title {
+        margin-bottom: 24px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .form-section-label {
+        cursor: pointer;
+        margin-bottom: 8px;
+    }
+
+
+    .form__checkbox {
+        position: relative;
+        padding-left: 2.6em;
+    }
+
+
+    .entry-field {
+        width: 100%;
+        height: 44px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        padding: 11px 0 12px 16px;
+        font-size: 14px;
+    }
+
+    .form__message{
+        margin-bottom: -3px;
+    }
+
+    .feedback-checkbox__input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
+        &:checked+.feedback-checkbox__check {
+            background-color: var(--color-primary);
+            border: none;
+        }
+    }
+
+    .feedback-checkbox__check {
+        position: absolute;
+        top: 3px;
+        width: 16px;
+        height: 16px;
+        border: 1px solid var(--color-grey-700);
+        background-image: url(../../assets/img/feedback-bg/check-svg.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        // background-size: cover;
+        // background-color: var(--color-primary);
+        border-radius: 4px;
+        margin-left: -2.5em;
+    }
+
+
+    .feedback__submit {
+        display: flex;
+        justify-content: center;
+    }
+
+    .feedback__btn {
+        line-height: 44px;
+    }
+
+}

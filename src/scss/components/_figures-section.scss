@@ -1,0 +1,20 @@
+.figures {
+    padding-top: 1rem;
+    padding-bottom: 18rem;
+
+    .figures__title {
+        margin-bottom: 5.7rem;
+    }
+
+    .figures__statistics {
+        display: flex;
+        justify-content: center;
+        gap: 48px;
+    }
+
+    .statistics__project {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

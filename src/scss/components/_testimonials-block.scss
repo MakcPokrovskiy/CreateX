@@ -1,0 +1,31 @@
+.clients__testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .testimonials__title {
+        margin-bottom: 6rem;
+    }
+
+    .testimonials-cards {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    .testimonials-cards__img {
+        width: 72px;
+        height: 72px;
+    }
+
+    .info-profile {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+    }
+}
+
+
+.testimonials__banner {
+    display: flex;
+    justify-content: flex-end;
+}

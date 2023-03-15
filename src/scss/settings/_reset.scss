@@ -29,7 +29,7 @@ section {
 
 body {
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
    font-weight: 400;
    -webkit-font-smoothing: antialiased;
    font-size: 1rem;
@@ -106,23 +106,7 @@ a {
    color: inherit;
    background-color: transparent;
 
-   &:not([href]):not([tabindex]) {
-      font-weight: inherit;
-      color: inherit;
-   }
 
-   &:not([href]):not([tabindex]):focus,
-   &:not([href]):not([tabindex]):hover {
-      color: inherit;
-   }
-
-   &:not([tabindex]):focus {
-      outline: 0;
-   }
-
-   &:not([class]) {
-      text-decoration-skip-ink: auto;
-   }
 }
 
 code,

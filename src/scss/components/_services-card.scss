@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 285px));
     gap: 30px;
+    padding-left: 17px;
 
     &__card {
         padding: 89px 15px;

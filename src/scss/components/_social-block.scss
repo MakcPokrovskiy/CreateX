@@ -1,0 +1,56 @@
+.social-block {
+    --col-gap: 16px;
+    --icon-width: 24px;
+    --icon-heigth: 24px;
+    --icon-fill: var(--color-white);
+    --icon-fill-hover: var(--color-white);
+    --icon-opacity: 0.6;
+
+    display: flex;
+    column-gap: var(--col-gap);
+    align-items: center;
+
+    &__link {
+        width: var(--icon-width);
+        height: var(--icon-heigth);
+        transition: transform 0.2s ease;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:focus-visible {
+            opacity: 1;
+
+            outline: 2px solid rgba($color: #fff, $alpha: 0.8);
+            outline-offset: 1px;
+            border-radius: 1px;
+        }
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    &__icon {
+        width: 100%;
+        height: 100%;
+        fill: var(--icon-fill);
+        opacity: var(--icon-opacity);
+        object-fit: cover;
+
+        &:hover {
+            opacity: 1;
+            fill: var(--icon-fill-hover);
+        }
+    }
+
+    &--page-contacts {
+        --col-gap: 24px;
+        --icon-width: 32px;
+        --icon-heigth: 32px;
+        --icon-fill: var(--color-grey-700);
+        --icon-fill-hover: var(--color-primary);
+        --icon-opacity: 1;
+    }
+}
