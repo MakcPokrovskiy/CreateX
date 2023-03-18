@@ -1,6 +1,7 @@
 .clients {
   padding-top: 9.5rem;
 
+
   .clients__partners {
     margin-bottom: 221px;
   }
@@ -13,7 +14,7 @@
     margin-bottom: 5px;
   }
 
-  .clients__title {
+  .partners__title{
     margin-bottom: 60px;
   }
 
@@ -41,5 +42,9 @@
     height: 24px;
     fill: var(--color-grey-800);
 
+  }
+
+  &--partners{
+  padding-bottom: 120px;
   }
 }
