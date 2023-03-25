@@ -1,0 +1,40 @@
+.offer {
+  padding-top: 12rem;
+
+  &-container {
+    display: flex;
+    column-gap: 12rem;
+  }
+
+  &__accordion {
+    max-width: 420px;
+  }
+
+}
+
+.accordion {
+
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding-left: 44px;
+  }
+
+  &__link {
+    margin-bottom: 12px;
+  }
+
+  &__panel {
+    cursor: pointer;
+
+    &:not(.active) .accordion__descr {
+      display: none;
+    }
+  }
+
+}

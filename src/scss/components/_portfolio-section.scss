@@ -49,4 +49,12 @@
         fill: var(--color-grey-800);
     }
 
+    &--interior{
+        position: relative;
+
+        .portfolio-slider__btn{
+            top: 50px;
+        }
+    }
+
 }
