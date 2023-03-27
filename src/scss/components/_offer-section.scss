@@ -1,27 +1,28 @@
 .offer {
   padding-top: 12rem;
+  padding-bottom: 6rem;
 
   &-container {
     display: flex;
-    column-gap: 12rem;
+    column-gap: 10.5rem;
   }
 
   &__accordion {
-    max-width: 420px;
+    max-width: 404px;
   }
 
 }
 
 .accordion {
 
+
   &__title {
-    margin-bottom: 60px;
+    margin-bottom: 38px;
   }
 
   &__wrapper {
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
     padding-left: 44px;
   }
 
@@ -36,5 +37,42 @@
       display: none;
     }
   }
+}
 
+.panel {
+
+  &__open.active::before {
+    transform: rotate(90deg);
+  }
+
+  &__open {
+    position: relative;
+
+    top: 32px;
+    left: -42px;
+    width: 24px;
+    height: 24px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 22px;
+      height: 3px;
+      background-color: var(--color-primary);
+      transform: rotate(0deg);
+      transition: all 0.3s ease 0s;
+    }
+  }
+
+  &__span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 22px;
+    height: 3px;
+    background-color: var(--color-primary);
+  }
 }

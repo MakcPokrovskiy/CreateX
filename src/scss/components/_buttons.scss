@@ -32,8 +32,20 @@
         line-height: 44px;
     }
 
+    &--lh36{
+        line-height: 36px;
+    }
+
     &--fs14 {
         font-size: 1.4rem;
+    }
+
+    &--fs12 {
+        font-size: 1.2rem;
+    }
+
+    &--padding112{
+        padding: 0 11.2rem;
     }
 
     &--padding40 {
@@ -46,6 +58,10 @@
 
     &--padding30 {
         padding: 0 3rem;
+    }
+
+    &--padding24 {
+        padding: 0 2.4rem;
     }
 
     &--border-orange {
