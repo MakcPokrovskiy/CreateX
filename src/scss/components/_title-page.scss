@@ -1,78 +1,79 @@
 .page-title {
-    font-weight: 700;
-    font-size: 7.2rem;
-    line-height: 130%;
-    color: var(--color-gray-900);
-    letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 7.2rem;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: var(--color-gray-900);
 
-    &--white {
-        color: #FFFFFF;
-    }
+  &--white {
+    color: #ffffff;
+  }
 
-    &--marked-orange {
-        color: var(--color-primary);
-    }
+  &--marked-orange {
+    color: var(--color-primary);
+  }
 }
 
-
-
-
 .title {
-    font-weight: 700;
-    font-size: 4.6rem;
-    line-height: 150%;
-    color: var(--color-gray-900);
+  font-weight: 700;
+  font-size: 4.6rem;
+  line-height: 150%;
+  color: var(--color-gray-900);
 
-    &--fs32 {
-        font-size: 3.2rem;
-    }
+  &--fs32 {
+    font-size: 3.2rem;
+  }
 
-    &--fs28 {
-        font-size: 2.8rem;
-    }
+  &--fs28 {
+    font-size: 2.8rem;
+  }
 
-    &--fs24 {
-        font-size: 2.4rem;
-    }
+  &--fs24 {
+    font-size: 2.4rem;
+  }
 
-    &--fs20 {
-        font-size: 2rem;
-    }
+  &--fs20 {
+    font-size: 2rem;
+  }
 
-    &--fs18{
-        font-size: 1.8rem;
-    }
+  &--fs18 {
+    font-size: 1.8rem;
+  }
 
-    &--fs16 {
-        font-size: 1.6rem;
-    }
+  &--fs16 {
+    font-size: 1.6rem;
+  }
 
-    &--fs14 {
-        font-size: 1.4rem;
-    }
+  &--fs14 {
+    font-size: 1.4rem;
+  }
 
-    &--height-low {
-        line-height: 130%;
-    }
+  &--height-low {
+    line-height: 130%;
+  }
 
-    &--height-up {
-        line-height: 160%;
-    }
+  &--height-up {
+    line-height: 160%;
+  }
 
-    &--centered {
-        text-align: center;
-    }
+  &--centered {
+    text-align: center;
+  }
 
-    &--white {
-        color: var(--color-white);
-    }
+  &--white {
+    color: var(--color-white);
+  }
 
-    &--gray800 {
-        color: var(--color-gray-800);
-    }
+  &--gray800 {
+    color: var(--color-gray-800);
+  }
 
-    &--fw400 {
-        font-weight: 400;
-    }
+  &--gray600 {
+    color: var(--color-grey-600);
+  }
+
+  &--fw400 {
+    font-weight: 400;
+  }
 
 }

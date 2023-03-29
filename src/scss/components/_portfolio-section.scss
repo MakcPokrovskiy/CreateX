@@ -57,4 +57,22 @@
     }
   }
 
+  &--work{
+    padding-top: 18.5rem;
+
+    .portfolio-list{
+      margin-bottom: 63px;
+    }
+
+    .portfolio__more{
+      column-gap: 16px;
+    }
+
+    .portfolio--work__more{
+      width: 24px;
+      height: 24px;
+      fill: var(--color-grey-800);
+    }
+  }
+
 }

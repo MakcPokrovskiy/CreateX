@@ -1,7 +1,6 @@
 .clients {
   padding-top: 9.5rem;
 
-
   .clients__partners {
     margin-bottom: 221px;
   }
@@ -10,15 +9,15 @@
     position: relative;
   }
 
-  &__title{
+  &__title {
     margin-bottom: 62px;
   }
 
-  .testimonials-cards__descr{
+  .testimonials-cards__descr {
     margin-bottom: 5px;
   }
 
-  .partners__title{
+  .partners__title {
     margin-bottom: 60px;
   }
 
@@ -48,7 +47,18 @@
 
   }
 
-  &--partners{
-  padding-bottom: 116px;
+  &--partners {
+    padding-bottom: 116px;
   }
+
+  &--work {
+    padding-top: 8rem;
+
+    .partners{
+        padding-top: 51px;
+        margin-bottom: 120px;
+      }
+
+  }
+
 }

@@ -116,23 +116,33 @@
   }
 
   &--secondary {
+    margin-bottom: 0;
     padding: 151px 0 120px;
     background-image: url("@img/bg/hero-secondaryBg.png");
-    margin-bottom: 0;
 
   }
 
   &--design {
+    margin-bottom: 0;
     padding: 151px 0 53px;
     background-image: url("@img/bg/interior-designBg.png");
-    margin-bottom: 0;
 
+  }
+
+  &--work {
+    margin-bottom: 0;
+    padding: 152px 0 116px;
+    background-image: url("@img/work/header-bg.png");
+  }
+
+  .hero--work__container{
+    position: relative;
   }
 }
 
 .home-page {
   display: flex;
-  align-items: center;
   column-gap: 8px;
+  align-items: center;
   margin-bottom: 40px;
 }
