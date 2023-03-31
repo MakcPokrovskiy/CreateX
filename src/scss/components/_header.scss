@@ -1,89 +1,92 @@
 .header {
-    padding: 22px 0;
+  padding: 22px 0;
 
-    .header__container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+  }
+
+  .header__menu {
+    margin-left: -110px;
+  }
+
+  .menu__list {
+    display: flex;
+    column-gap: 40.5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+
+  .menu__item {
+    transition: transform 0.1s ease;
+
+    &:hover {
+      transform: scale(1.2);
     }
+  }
 
-    // .logo {}
+  .menu__link {
+    transition: transform 0.1s ease;
 
-    // .logo__img {}
-
-    // .menu {}
-
-    .header__menu {
-        margin-left: -110px;
+    &:hover {
+      color: var(--color-primary);
     }
+  }
 
-    .menu__list {
-        display: flex;
-        column-gap: 40.5px;
-        font-size: 1.6rem;
-        font-weight: 700;
-        font-family: "Ubuntu", sans-serif;
+  .header__action {
+    display: flex;
+    column-gap: 36px;
+  }
+
+  // .header__action-phone {}
+
+  .header__action-item {
+    display: grid;
+    grid-gap: 0 12px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
+    align-items: center;
+    justify-content: space-between;
+
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.1);
     }
+  }
 
-    .menu__item {
-        transition: transform 0.1s ease;
+  .phone {
+    // grid-row-start: 1;
+    // grid-row-end: 3;
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
 
-        &:hover {
-            transform: scale(1.2);
-        }
-    }
+  .action__text {
+    font-size: 1.8rem;
+  }
 
-    .menu__link {
-        transition: transform 0.1s ease;
+  .action__text-title {
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
 
-        &:hover {
-            color: var(--color-primary);
-        }
-    }
+  // .header__action-email {}
 
-    .header__action {
-        display: flex;
-        column-gap: 36px;
-    }
+  .chat {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
 
-    // .header__action-phone {}
-
-    .header__action-item {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(1, auto);
-        grid-gap: 0 12px;
-        justify-content: space-between;
-        align-items: center;
-
-        transition: transform 0.2s ease;
-
-        &:hover {
-            transform: scale(1.1);
-        }
-    }
-
-    .phone {
-        // grid-row-start: 1;
-        // grid-row-end: 3;
-        grid-column: 1/2;
-        grid-row: 1/3;
-    }
-
-    .action__text {
-        font-size: 1.8rem;
-    }
-
-    .action__text-title {
-        font-size: 1.4rem;
-        font-weight: 700;
-    }
-
-    // .header__action-email {}
-
-    .chat {
-        grid-column: 1/2;
-        grid-row: 1/3;
-    }
+  &--secondary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+  }
 }

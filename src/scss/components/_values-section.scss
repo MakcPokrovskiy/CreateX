@@ -1,42 +1,61 @@
 .values {
-    padding-top: 5.3rem;
-    padding-bottom: 6rem;
+  padding-top: 5.3rem;
+  padding-bottom: 6rem;
 
+  .values__title {
+    margin-bottom: 21px;
+  }
 
-    .values__title {
-        margin-bottom: 21px;
+  .values__descr {
+    margin-bottom: 61px;
+  }
+
+  .values__boxes-list {
+    display: flex;
+    column-gap: 185px;
+  }
+
+  .boxes__item {
+    transition: transform 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.2);
     }
+  }
 
-    .values__descr {
-        margin-bottom: 61px;
-    }
+  .boxes__img {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 22px;
+  }
+
+  .boxes__title {
+    margin-bottom: 10px;
+  }
+
+  &--benefits {
+    position: relative;
+    padding-top: 7.6rem;
+    background-color: var(--color-grey-900);
 
     .values__boxes-list {
-        display: flex;
-        column-gap: 185px;
-    }
-
-    .boxes__item {
-        transition: transform 0.2s ease;
-        cursor: pointer;
-
-        &:hover {
-            transform: scale(1.2);
-        }
+      margin-bottom: 66px;
     }
 
     .boxes__img {
-        width: 100%;
-        height: 48px;
-        margin-bottom: 22px;
+      width: 100%;
+      height: 48px;
+      fill: var(--color-primary);
     }
+  }
 
-    .boxes__title {
-        margin-bottom: 10px;
-    }
+  &--benefits__btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
 
-    // .boxes__descr {
-
-    // }
+  }
 
 }

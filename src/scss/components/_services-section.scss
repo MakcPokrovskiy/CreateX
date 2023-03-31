@@ -1,28 +1,77 @@
 .services {
-    padding-top: 6.7rem;
+  padding-top: 6.7rem;
+  padding-bottom: 8rem;
+
+  &__title {
+    margin-bottom: 2.4rem;
+  }
+
+  &__descr {
+    margin-bottom: 6rem;
+  }
+
+  .services__container {
+    padding: 0;
+  }
+
+  .services__more {
+    display: flex;
+    column-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
     padding-bottom: 8rem;
 
-    &__title {
-        margin-bottom: 2.4rem;
+  }
+
+}
+
+.services-servicePage {
+  padding-top: 12rem;
+  padding-bottom: 18rem;
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+  }
+}
+
+.service-card {
+  display: flex;
+  column-gap: 80px;
+
+  &__col {
+    max-width: 575px;
+    padding-right: 1px;
+
+    &--revers{
+      order: 2;
     }
 
-    &__descr {
-        margin-bottom: 6rem;
+    &--padding-left{
+      padding-top: 88px;
     }
 
-    .services__container {
-        padding:0;
+    &--padding-right{
+      padding-top: 75px;
     }
 
-    .services__more {
-        padding-top: 8rem;
-        padding-bottom: 8rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 4rem;
-
+    &--padding64{
+      padding-top: 64px;
     }
+  }
 
+
+  &__title {
+    margin-bottom: 24px;
+  }
+  &__descr{
+    margin-bottom: 49px;
+  }
+
+  &__btn {
+    max-width: max-content;
+  }
 
 }
