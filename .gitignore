@@ -103,4 +103,5 @@ typings/
 .tern-port
 
 .idea
+.vscode
 node_modules

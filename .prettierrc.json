@@ -4,19 +4,29 @@
   "singleAttributePerLine": false,
   "bracketSameLine": true,
   "printWidth": 120,
-  "endOfLine": "crlf",
+  "endOfLine": "auto",
   "tabWidth": 2,
+
   "overrides": [
     {
       "files": "*.scss",
       "options": {
-        "tabWidth": 3
+        "printWidth": 85,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "printWidth": 85,
+        "tabWidth": 2
       }
     },
     {
       "files": "*.html",
       "options": {
-        "tabWidth": 3
+        "printWidth": 125,
+        "tabWidth": 2
       }
     }
   ]

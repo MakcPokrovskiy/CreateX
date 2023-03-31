@@ -2,7 +2,7 @@
   position: relative;
   margin-bottom: 6rem;
   padding: 221px 0 120px;
-  background-image: url("@img/bg/hero-home-bg.jpg");
+  background-image: url("@img/homePageFirstSlideBG.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,10 +75,14 @@
     border-radius: 50%;
     background-color: var(--color-grey-500);
 
-    &.arrow-prev {
+    &:hover {
+      border: none;
+    }
+
+    .arrow-prev {
       width: 24px;
       height: 24px;
-
+      fill: var(--color-grey-800);
     }
   }
 
@@ -94,6 +98,16 @@
     border: 0.5px solid var(--color-grey-600);
     border-radius: 50%;
     background-color: var(--color-grey-500);
+
+    &:hover {
+      border: none;
+    }
+  }
+
+  .arrow-next {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-grey-800);
   }
 
   .control-pages {
@@ -117,25 +131,25 @@
 
   &--secondary {
     margin-bottom: 0;
-    padding: 151px 0 120px;
-    background-image: url("@img/bg/hero-secondaryBg.png");
+    padding: 152px 0 116px;
+    background-image: url("@img/servicesPage-heroBG.png");
 
   }
 
   &--design {
     margin-bottom: 0;
     padding: 151px 0 53px;
-    background-image: url("@img/bg/interior-designBg.png");
+    background-image: url("@img/interior-desing-page-bg.png");
 
   }
 
   &--work {
     margin-bottom: 0;
     padding: 152px 0 116px;
-    background-image: url("@img/work/header-bg.png");
+    background-image: url("@img/work-page-bg.png");
   }
 
-  .hero--work__container{
+  .hero--work__container {
     position: relative;
   }
 }

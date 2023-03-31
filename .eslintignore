@@ -1,8 +1,8 @@
-node_modules
-.vscode
 .git
-gulp
+.vscode
 .idea
+gulp
+node_modules
 gulpfile.js
 .prettierignore
 .prettierrc.json
