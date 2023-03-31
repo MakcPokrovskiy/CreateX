@@ -1,5 +1,5 @@
 .values {
-  padding-top: 5.3rem;
+  padding-top: 5.5rem;
   padding-bottom: 6rem;
 
   .values__title {
@@ -28,6 +28,7 @@
     width: 100%;
     height: 48px;
     margin-bottom: 22px;
+    fill: var(--color-primary);
   }
 
   .boxes__title {

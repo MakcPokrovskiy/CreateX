@@ -2,7 +2,7 @@
   padding-top: 9.5rem;
 
   .clients__partners {
-    margin-bottom: 221px;
+    margin-bottom: 225px;
   }
 
   .testimonials--list {
@@ -10,7 +10,7 @@
   }
 
   &__title {
-    margin-bottom: 62px;
+    margin-bottom: 56px;
   }
 
   .testimonials-cards__descr {
@@ -27,10 +27,9 @@
 
   .testimonials__btn {
     position: absolute;
-    right: 10px;
-    bottom: 0;
+    right: 2px;
+    bottom: -11px;
     display: flex;
-    column-gap: 12px;
 
     &:hover {
       .portfolio-btn__icon {
@@ -54,10 +53,15 @@
   &--work {
     padding-top: 8rem;
 
-    .partners{
-        padding-top: 51px;
-        margin-bottom: 120px;
-      }
+    .partners {
+      margin-bottom: 120px;
+      padding-top: 55px;
+    }
+
+    .testimonials__banner{
+      display: flex;
+      justify-content: flex-end;
+    }
 
   }
 

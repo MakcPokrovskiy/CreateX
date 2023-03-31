@@ -22,10 +22,10 @@
   .portfolio-slider__btn {
     position: absolute;
     top: 120px;
-    right: 15px;
+    right: 1px;
 
     display: flex;
-    column-gap: 12px;
+    // column-gap: 12px;
 
     &:hover {
       .portfolio-btn__icon {
@@ -43,8 +43,8 @@
   }
 
   .portfolio-btn__icon {
-    width: 18px;
-    height: 12px;
+    width: 24px;
+    height: 24px;
     fill: var(--color-grey-800);
   }
 
