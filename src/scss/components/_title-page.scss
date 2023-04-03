@@ -20,6 +20,10 @@
   line-height: 150%;
   color: var(--color-gray-900);
 
+  &--fs64{
+    font-size: 6.2rem;
+  }
+
   &--fs32 {
     font-size: 3.2rem;
   }
@@ -46,6 +50,10 @@
 
   &--fs14 {
     font-size: 1.4rem;
+  }
+
+  &--height-low120{
+    line-height: 120%;
   }
 
   &--height-low {

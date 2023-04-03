@@ -152,6 +152,21 @@
   .hero--work__container {
     position: relative;
   }
+
+  &--cottage {
+    padding: 151px 0 120px;
+    background-image: none;
+
+    .hero--cottage__container {
+      position: relative;
+    }
+
+    .hero__title {
+      margin-bottom: 65px;
+      line-height: 120%;
+      letter-spacing: 2px;
+    }
+  }
 }
 
 .home-page {
@@ -159,4 +174,37 @@
   column-gap: 8px;
   align-items: center;
   margin-bottom: 40px;
+}
+
+.cottage-slider {
+  overflow: hidden;
+
+  &__items {
+    position: relative;
+    left: 0;
+    display: flex;
+    margin-bottom: 20px;
+    transition: all 1s ease-in-out;
+  }
+
+  &__item {
+    min-width: 100%;
+  }
+
+  &__duplicate {
+    display: flex;
+    gap: 20px;
+  }
+
+  &-btn {
+    .slider__btn-prev {
+      top: 52%;
+      left: 46px;
+    }
+
+    .slider__btn-next {
+      top: 52%;
+      right: 46px;
+    }
+  }
 }
