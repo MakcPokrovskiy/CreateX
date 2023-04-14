@@ -1,0 +1,38 @@
+.goals {
+  padding-top: 4rem;
+  padding-bottom: 12rem;
+
+  &-container {
+    display: flex;
+    column-gap: 195px;
+  }
+
+  &__content {
+    max-width: 600px;
+  }
+
+  &__title {
+    margin-bottom: 38px;
+  }
+}
+
+.details {
+  display: flex;
+  column-gap: 34px;
+
+  &__headings {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}
+
+.details-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+
+  &__item {
+    color: var(--color-grey-700);
+  }
+}
