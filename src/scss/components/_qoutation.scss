@@ -1,0 +1,37 @@
+.quotation {
+  padding-top: 14rem;
+
+  &__container {
+    position: relative;
+    display: flex;
+  }
+
+  &__logo-photo {
+    max-width: 525px;
+    padding-top: 38px;
+  }
+
+  &__content {
+    position: absolute;
+    top: 0;
+    right: 117px;
+    max-width: 495px;
+
+  }
+
+  &__blockquote {
+    margin-bottom: 58px;
+  }
+
+  &__name-position {
+    display: flex;
+    justify-content: space-between;
+  }
+  .qoutation__name{
+    margin-bottom: 5px;
+  }
+
+  &__signature{
+    margin-top: -10px;
+  }
+}

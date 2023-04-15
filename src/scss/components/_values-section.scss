@@ -59,4 +59,29 @@
 
   }
 
+  &--about {
+    padding-top: 12.5rem;
+
+    .values__boxes-list {
+      display: flex;
+      flex-direction: row;
+      column-gap: 86px;
+    }
+
+    .boxes__img {
+      fill: var(--color-grey-600);
+    }
+
+    .boxes__title {
+      white-space: nowrap;
+      font-size: 46px;
+      margin-bottom: 4px;
+      color: var(--color-primary);
+    }
+
+    .boxes__item {
+      max-width: 240px;
+    }
+  }
+
 }

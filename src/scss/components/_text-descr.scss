@@ -1,53 +1,69 @@
 .page-descr {
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 150%;
-    color: var(--color-grey-700);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 150%;
+  color: var(--color-grey-700);
 
-    &--white {
-        color: var(--color-white);
-    }
+  &--white {
+    color: var(--color-white);
+  }
 }
 
 .text-descr {
-    font-weight: 400;
-    line-height: 150%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: var(--color-grey-700);
+
+  &--fs20 {
+    font-size: 2rem;
+  }
+
+  &--fs18 {
+    font-size: 1.8rem;
+  }
+
+  &--fs16 {
     font-size: 1.6rem;
+  }
+
+  &--fs14 {
+    font-size: 1.4rem;
+  }
+
+  &--fs12 {
+    font-size: 1.2rem;
+  }
+
+  &--fw700 {
+    font-weight: 700;
+  }
+
+  &--height-up {
+    line-height: 160%;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--gray700 {
     color: var(--color-grey-700);
+  }
 
-    &--fs18 {
-        font-size: 1.8rem;
-    }
+  &--gray800 {
+    color: var(--color-grey-800);
+  }
 
-    &--fs16 {
-        font-size: 1.6rem;
-    }
+  &--gray900 {
+    color: var(--color-grey-900);
+  }
 
-    &--fs14 {
-        font-size: 1.4rem;
-    }
+  &--white {
+    color: var(--color-white);
+  }
 
-    &--fs12 {
-        font-size: 1.2rem;
-    }
-
-    &--height-up {
-        line-height: 160%;
-    }
-
-    &--centered {
-        text-align: center;
-    }
-
-    &--gray800 {
-        color: var(--color-grey-800);
-    }
-
-    &--white {
-        color: var(--color-white);
-    }
-
-    &--opacity06{
-        opacity: 0.6;
-    }
+  &--opacity06 {
+    opacity: 0.6;
+  }
 }

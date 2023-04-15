@@ -171,6 +171,13 @@
       letter-spacing: 2px;
     }
   }
+
+  &--about{
+    margin-bottom: 0;
+    padding: 152px 0 116px;
+    background-image: url("@img/about-us-bg.png");
+    background-position: center;
+  }
 }
 
 .slider {
