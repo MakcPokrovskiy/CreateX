@@ -65,4 +65,19 @@
 
   }
 
+  &--about{
+    padding-top: 21.5rem;
+
+    .clients__title{
+      margin-bottom: 19px;
+    }
+    .clients__descr{
+      margin-bottom: 61px;
+    }
+
+    .clients__partners{
+      margin-bottom: 0;
+    }
+  }
+
 }

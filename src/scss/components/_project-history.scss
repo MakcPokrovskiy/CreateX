@@ -1,0 +1,48 @@
+.project-history {
+  padding-top: 11.5rem;
+
+  &__container {
+    position: relative;
+  }
+
+  &__title {
+    margin-bottom: 55px;
+  }
+
+  &__content {
+    display: flex;
+    column-gap: 170px;
+    justify-content: space-between;
+  }
+
+  &__slider {
+    max-width: 810px;
+
+    .slider__btn {
+      position: absolute;
+      top: 28px;
+      right: 2px;
+      display: flex;
+    }
+
+    .portfolio-btn__icon{
+      width: 24px;
+      height: 24px;
+    }
+
+    .slide__img {
+      margin-bottom: 36px;
+    }
+  }
+}
+
+
+.pagination{
+
+  &__list{
+    display: flex;
+    padding-left: 41px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

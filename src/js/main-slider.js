@@ -27,22 +27,4 @@ export const mainSlider = () => {
     };
     slidersLine.style.left = `${-offset}px`;
   });
-
-
-  // btnNext.addEventListener('click', () => {
-  //   offset += 1920;
-  //   if (offset > 3840) {
-  //     offset = 0;
-  //   };
-  //   slidersLine.style.left = `${-offset}px`;
-  // });
-  //
-  // btnPrev.addEventListener('click', () => {
-  //   offset -= 1920;
-  //   if (offset < 0) {
-  //     offset = 3840;
-  //   };
-  //   slidersLine.style.left = `${-offset}px`;
-  // });
-
 };

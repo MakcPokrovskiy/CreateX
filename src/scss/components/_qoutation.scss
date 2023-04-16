@@ -1,5 +1,6 @@
 .quotation {
-  padding-top: 14rem;
+  padding: 14rem 0;
+
 
   &__container {
     position: relative;
@@ -27,7 +28,7 @@
     display: flex;
     justify-content: space-between;
   }
-  .qoutation__name{
+  &__name{
     margin-bottom: 5px;
   }
 
