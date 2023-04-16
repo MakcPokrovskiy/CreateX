@@ -3,7 +3,7 @@ export const gallarySlider = () => {
   let nextBtn = document.querySelector('.slider__btn-next');
   let sliderLine = document.querySelector('.cottage-slider__items');
   let offset = 0;
-  console.log(sliderLine);
+
 
   nextBtn.addEventListener('click', function () {
     offset += 1230;
